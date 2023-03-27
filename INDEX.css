@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .logo img {
+    height: 120px;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #eee;
+  }
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .iframe {
+    width: 50%;
+    height: 500px;
+    border: none;
+  }
+ul li{
+  margin: 25px;
+}
+ul li a{
+      padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			color: #333;
+			font-weight: bold;
+			font-size: 18px;
+      margin: 25px;
+			margin-bottom: 10px;
+}
+ul li a:hover{
+  background-color:#81d883;
+  border-radius: 5px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 20px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #fff;
+}
+
+.social-links a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #111;
+  padding: 10px 0;
+}
